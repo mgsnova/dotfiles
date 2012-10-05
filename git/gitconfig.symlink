@@ -1,9 +1,11 @@
 [user]
-	name = mgsnova
-	email = github@mgsnova.de
+    name = mgsnova
+    email = github@mgsnova.de
 [color]
-	diff = auto
-	status = auto
-	branch = auto
+    diff = auto
+    status = auto
+    branch = auto
 [apply]
-	whitespace = nowarn
+    whitespace = nowarn
+[core]
+    excludesfile = <%= ENV['HOME'] %>/.gitignore
