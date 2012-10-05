@@ -1,0 +1,77 @@
+Rxvt.perl-ext-common: default,matcher
+Rxvt.urlLauncher: chromium
+
+urxvt*colorBD:              lightyellow
+urxvt*colorUL:              lightblue
+
+urxvt*dynamicColors:        on
+urxvt*highlightSelection:   true
+
+urxvt*eightBitInput:        false
+urxvt*metaSendsEscape:      true
+!
+!urxvt*font:                 ter-124b
+urxvt*scrollBar:            false
+
+urxvt*background:  #333333
+urxvt*foreground:  #cfcfcf
+urxvt*cursorColor: #cdc092
+urxvt*saveLines:   20000
+
+!black
+urxvt*color0:      #000000
+
+!red
+urxvt*color1:      #e01010
+
+!green
+urxvt*color2:      #20ad20
+
+!yellow
+urxvt*color3:      #d4c24f
+
+!blue
+urxvt*color4:      #3a53f0
+!#231bb8
+
+!purple
+urxvt*color5:      #9c3885
+
+!cyan
+urxvt*color6:      #f57900
+!#1dbdb8
+
+!white
+urxvt*color7:      #fefefe
+
+!bright-black
+urxvt*color8:      #6a6a6a
+
+!bright-red
+urxvt*color9:      #e83a3d
+
+!bright-green
+urxvt*color10:     #35e956
+
+!bright-yellow
+urxvt*color11:     #ffff2f
+
+!bright-blue
+urxvt*color12:     #3a53f0
+
+!bright-purple
+urxvt*color13:     #e628ba
+
+!bright-cyan
+urxvt*color14:     #fcaf3e
+!#1cf5f5
+
+!bright-white
+urxvt*color15:     #ffffff
+
+
+! These are for a tranparent mouse in XFree86 4.3 and later
+Xcursor.size:          22
+! Very nice one!
+Xcursor.theme:         Grounation
+

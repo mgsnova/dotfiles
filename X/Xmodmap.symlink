@@ -1,0 +1,15 @@
+! umlauts on caps-aou, sharp s on caps-s.
+keycode 66 = ISO_Group_Shift ISO_Group_Shift ISO_First_Group NoSymbol
+
+keycode  38 = a A adiaeresis Adiaeresis aacute Aacute ae AE
+keycode  39 = s S ssharp S ssharp section U017F U1E9E
+keycode  32 = o O odiaeresis Odiaeresis oacute Oacute oslash Oslash
+keycode  30 = u U udiaeresis Udiaeresis uacute Uacute downarrow uparrow
+
+! keycode 66 = Mode_switch Multi_key
+! keycode 117 = Mode_switch Multi_key
+keycode 197 = Pause
+clear Mod3
+clear Mod4
+add Mod3 = Super_L
+! add Mod4 = Super_L
