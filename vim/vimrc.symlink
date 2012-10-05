@@ -2,3 +2,29 @@ if has('gui_running')
   colorscheme twilight
   set guifont=Inconsolata\ Medium\ 13
 endif
+
+" global settings
+set textwidth=120
+set expandtab
+set sw=2 smartindent softtabstop=2 et ts=4
+set smarttab
+
+" folding
+set foldenable
+set foldlevel=1
+set foldcolumn=1
+set foldmethod=marker
+
+set list
+set lcs=tab:»·
+set lcs+=trail:·
+" set lcs+=eol:$
+
+" shortcuts
+map Q :call BufferList()<CR>
+map W :NERDTreeToggle<CR>
+
+" removes trailng spaces
+function! RemoveTrailingSpaces()
+  execute "normal:%s/[[:space:]]*$//g" . "\<CR>"
+endfunction
