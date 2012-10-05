@@ -1,3 +1,9 @@
 [user]
 	name = mgsnova
 	email = github@mgsnova.de
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[apply]
+	whitespace = nowarn
