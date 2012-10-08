@@ -24,6 +24,9 @@ set lcs+=trail:·
 map Q :call BufferList()<CR>
 map W :NERDTreeToggle<CR>
 
+"
+au BufNewFile,BufRead *.rb    set ft=ruby.rb_project
+
 " removes trailng spaces
 function! RemoveTrailingSpaces()
   execute "normal:%s/[[:space:]]*$//g" . "\<CR>"
