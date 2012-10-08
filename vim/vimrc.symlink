@@ -3,6 +3,8 @@ if has('gui_running')
   set guifont=Inconsolata\ Medium\ 13
 endif
 
+syn on
+
 " global settings
 set textwidth=120
 set expandtab
