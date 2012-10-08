@@ -1,37 +1,27 @@
-
 if has('gui_running')
   colorscheme twilight
-  set guifont=Inconsolata\ Medium\ 13
 else
   let g:solarized_termcolors=256
   colorscheme solarized
 endif
 
-set background=dark
-syn on
+syntax enable                       " force syntax highlighting
+set guifont=Inconsolata\ Medium\ 13 " set font
+set background=dark                 " dark background all the time
+set ruler                           " always show ruler
+set rulerformat=%40(%t%y:\ %l,%c%V\ \(%o\)\ %p%%%)
+set history=1000                    " save commands
+set expandtab                       " tabs to spaces
+set list listchars=trail:·,tab:»·   " special chars
+set laststatus=2                    " always show status line
 
 " global settings
-set textwidth=120
-set expandtab
 set sw=2 smartindent softtabstop=2 et ts=4
 set smarttab
 
-" folding
-set foldenable
-set foldlevel=1
-set foldcolumn=1
-set foldmethod=marker
-
-set list
-set lcs=tab:»·
-set lcs+=trail:·
-" set lcs+=eol:$
-
 " shortcuts
 map Q :call BufferList()<CR>
-map W :NERDTreeToggle<CR>
 
-"
 au BufNewFile,BufRead *.rb    set ft=ruby.rb_project
 
 " removes trailng spaces
