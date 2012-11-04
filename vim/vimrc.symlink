@@ -11,13 +11,22 @@ set background=dark                 " dark background all the time
 set ruler                           " always show ruler
 set rulerformat=%40(%t%y:\ %l,%c%V\ \(%o\)\ %p%%%)
 set history=1000                    " save commands
-set expandtab                       " tabs to spaces
 set list listchars=trail:·,tab:»·   " special chars
 set laststatus=2                    " always show status line
+set noerrorbells visualbell t_vb=   " no beeps or flashes
+set noswapfile                      " disable swapfiles
+set cursorline                      " highligth current line
+set wildmenu                        " activate wild menu
 
-" global settings
-set sw=2 smartindent softtabstop=2 et ts=4
-set smarttab
+" tabs
+set expandtab                       " tabs to spaces
+set shiftwidth=2
+set softtabstop=2
+set tabstop=4
+
+" indent
+set autoindent                      " autoindent new lines
+set smartindent
 
 " shortcuts
 map Q :call BufferList()<CR>
