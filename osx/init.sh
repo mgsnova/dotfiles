@@ -13,3 +13,7 @@ brew install autoconf automake apple-gcc42
 # rvm
 curl -L https://get.rvm.io | bash -s stable
 rvm requirements
+
+# osx settings
+defaults write com.apple.dock expose-animation-duration -float 0.15 && killall Dock
+
