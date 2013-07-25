@@ -22,7 +22,7 @@ set wildmenu                        " activate wild menu
 set expandtab                       " tabs to spaces
 set shiftwidth=2
 set softtabstop=2
-set tabstop=4
+set tabstop=2
 
 " indent
 set autoindent                      " autoindent new lines
