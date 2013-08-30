@@ -15,7 +15,9 @@ set list listchars=trail:·,tab:»·   " special chars
 set laststatus=2                    " always show status line
 set noerrorbells visualbell t_vb=   " no beeps or flashes
 set noswapfile                      " disable swapfiles
-set cursorline                      " highligth current line
+set nobackup                        " disable backup
+set cursorline                      " highlight current line
+set cursorcolumn                    " highlight current column
 set wildmenu                        " activate wild menu
 
 " tabs
