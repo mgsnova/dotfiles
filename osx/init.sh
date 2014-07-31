@@ -15,5 +15,5 @@ curl -L https://get.rvm.io | bash -s stable
 rvm requirements
 
 # osx settings
-defaults write com.apple.dock expose-animation-duration -float 0.15 && killall Dock
-
+defaults write com.apple.dock expose-animation-duration -float 0.10 && killall Dock
+defaults write com.apple.Dock autohide-delay -float 0 && killall Dock
