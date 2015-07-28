@@ -1,12 +1,14 @@
-if has('gui_running')
-  colorscheme twilight
-else
-  let g:solarized_termcolors=256
-  colorscheme solarized
-endif
+" load pathogen
+call pathogen#infect()
+call pathogen#helptags()
+
+" colorscheme
+let g:seoul256_background = 233
+colo seoul256
 
 syntax enable                       " force syntax highlighting
-set guifont=Inconsolata\ Medium\ 13 " set font
+set encoding=utf-8                  " encoding
+set fileencoding=utf-8              " encoding
 set background=dark                 " dark background all the time
 set ruler                           " always show ruler
 set rulerformat=%40(%t%y:\ %l,%c%V\ \(%o\)\ %p%%%)
@@ -33,15 +35,6 @@ set smartindent
 " shortcuts
 map Q :call BufferList()<CR>
 
-au BufNewFile,BufRead *.rb    set ft=ruby.rb_project
-
-" removes trailng spaces
-function! RemoveTrailingSpaces()
-  execute "normal:%s/[[:space:]]*$//g" . "\<CR>"
-endfunction
-
-" CtrlP stuff
-set runtimepath^=~/.vim/bundle/ctrlp.vim
+" CtrlP settings
 let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
