@@ -16,7 +16,7 @@ rvm requirements
 
 # osx settings
 chflags nohidden ~/Library
-defaults write com.apple.dock expose-animation-duration -float 0.1
+defaults write com.apple.dock expose-animation-duration -float 0
 defaults write com.apple.Dock autohide-delay -float 0
 defaults write com.apple.finder EmptyTrashSecurely -bool true
 defaults write com.apple.finder WarnOnEmptyTrash -bool false

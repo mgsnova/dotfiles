@@ -19,8 +19,9 @@ set laststatus=2                    " always show status line
 set noerrorbells visualbell t_vb=   " no beeps or flashes
 set noswapfile                      " disable swapfiles
 set nobackup                        " disable backup
-set cursorline                      " highlight current line
-set cursorcolumn                    " highlight current column
+set lazyredraw
+"set cursorline                      " highlight current line
+"set cursorcolumn                    " highlight current column
 set wildmenu                        " activate wild menu
 set backspace=indent,eol,start      " allow backspacing over everything
 
