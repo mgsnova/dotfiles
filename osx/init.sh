@@ -4,7 +4,7 @@
 # goto https://developer.apple.com/downloads
 
 # homebrew + packages
-ruby -e "$(curl -fsSkL raw.github.com/mxcl/homebrew/go)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
 brew install ack git redis wget tmux tkdiff readline cmake cloc zsh tree
 brew tap homebrew/dupes
