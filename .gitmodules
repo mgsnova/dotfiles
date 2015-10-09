@@ -28,3 +28,9 @@
 [submodule "zsh/oh-my-zsh.symlink"]
 	path = zsh/oh-my-zsh.symlink
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule "vim/vim.symlink/bundle/vim-go"]
+	path = vim/vim.symlink/bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "vim/vim.symlink/bundle/VimClojure"]
+	path = vim/vim.symlink/bundle/VimClojure
+	url = https://github.com/vim-scripts/VimClojure.git
