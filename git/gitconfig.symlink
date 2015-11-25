@@ -9,3 +9,6 @@
     whitespace = nowarn
 [core]
     excludesfile = <%= ENV['HOME'] %>/.gitignore
+    editor = vim
+[push]
+    default = simple
