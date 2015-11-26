@@ -34,3 +34,6 @@
 [submodule "vim/vim.symlink/bundle/VimClojure"]
 	path = vim/vim.symlink/bundle/VimClojure
 	url = https://github.com/vim-scripts/VimClojure.git
+[submodule "vim/vim.symlink/bundle/paredit.vim"]
+	path = vim/vim.symlink/bundle/paredit.vim
+	url = https://github.com/vim-scripts/paredit.vim.git
